@@ -1,2 +1,29 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*{
+    box-sizing:content-box;
+    cursor:cell;
+}
+.heading{
+    width: 21%;
+    padding: 4px;
+    border: 1px groove cyan;
+    border-radius: 1px;
+}
+#query:active{
+    border: 4px dotted deeppink;
+}
+.submit{
+    padding: 10px;
+    background-color:deepskyblue;
+}
+/* Psedu Classes */
+/* : */
+/* Special State of Element */
+.submit:hover{
+    background-color:dimgray;
+    cursor:grabbing;
+}
+.chatbot{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+}
